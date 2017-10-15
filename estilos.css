@@ -1,0 +1,63 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+.casilla{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;	
+}
+
+#div_tablero{
+	margin: 0 auto;
+	float: left;
+}
+
+#div_colores{
+	float: left;
+	padding-top: 15px;
+	padding-left: 25px;
+	width: 130px;
+	height: 120px;
+	border: 2px solid black;
+	margin-left: 30px;
+}
+
+.casilla[data-color='0']{
+	background-color: white;
+}
+
+.casilla[data-color='1']{
+	background-color: yellow;
+}
+
+.casilla[data-color='2']{
+	background-color: blue;
+}
+
+.casilla[data-color='3']{
+	background-color: red;
+}
+
+.casilla[data-color='4']{
+	background-color: green;
+}
+
+.casilla[data-color='5']{
+	background-color: purple;
+}
+
+.casilla[data-color='6']{
+	background-color: orange;
+}
+
+.casilla[data-color='7']{
+	background-color: black;
+}
+
+.casilla[data-color='8']{
+	background-color: brown;
+}
